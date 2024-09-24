@@ -1,8 +1,8 @@
 version: '3.8'
 
 services:
-  web:
-    image: random-restaurant-fastapi
+  api:
+    image: alkaline2018/random-restaurant-fastapi
     ports:
       - "18080:18080"
     volumes:
