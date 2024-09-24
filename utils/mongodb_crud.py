@@ -2,8 +2,8 @@ from pymongo import MongoClient
 
 # MongoDB 연결
 # 공인ip 49.50.173.55
-client = MongoClient("mongodb://49.50.173.55:27017/")
-# client = MongoClient("mongodb://10.41.143.83:27017/")
+# client = MongoClient("mongodb://49.50.173.55:27017/")
+client = MongoClient("mongodb://10.41.143.83:27017/")
 db = client['nice_kibisis']
 restaurant_collection = db['naver_place_202409_restorant']
 
